@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.App {
+  text-align: center;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.quiz-container {
+  background: #1e1e1e;
+  padding: 30px;
+  border-radius: 20px;
+  width: 90%;
+  max-width: 420px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+.question {
+  font-size: 1.1rem;
+  margin: 20px 0;
+}
+
+.option-btn {
+  display: block;
+  width: 100%;
+  background: #333;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 8px 0;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.option-btn:hover {
+  background: #2575fc;
+}
+
+.progress-bar {
+  width: 100%;
+  background: #444;
+  height: 8px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress {
+  height: 8px;
+  background: #6a11cb;
+  transition: width 0.4s ease;
+}
+
+.result h2 {
+  margin-bottom: 10px;
+}
+
+.restart-btn {
+  background: #6a11cb;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.restart-btn:hover {
+  background: #2575fc;
+}
